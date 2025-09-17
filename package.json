@@ -1,0 +1,20 @@
+{
+  "name": "vercel-voice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5173",
+    "build": "next build",
+    "start": "next start -p 5173",
+    "postinstall": "next telemetry disable || true"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.19",
+    "google-generativeai": "0.8.3",
+    "next": "14.2.10",
+    "postcss": "8.4.47",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.14"
+  }
+}
