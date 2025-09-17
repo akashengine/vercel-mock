@@ -26,3 +26,4 @@ Buttons provided: Start / End / Mute / Unmute. Transcript lines stream into the 
 
 - Top-level page → browsers show mic prompts reliably.
 - If blocked, check browser mic permissions and OS privacy settings.
+Bump: 2025-09-18 02:51:53 IST
