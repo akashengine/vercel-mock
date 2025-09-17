@@ -9,8 +9,8 @@
     "postinstall": "next telemetry disable || true"
   },
   "dependencies": {
+    "@google/generative-ai": "0.17.0",
     "autoprefixer": "10.4.19",
-    "google-generativeai": "0.8.3",
     "next": "14.2.10",
     "postcss": "8.4.47",
     "react": "18.3.1",

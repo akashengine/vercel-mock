@@ -5,7 +5,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const { geminiApiKey, files, regNo } = req.body || {};
   if (!geminiApiKey || !Array.isArray(files)) return res.status(400).json({ error: 'Missing inputs' });
   try {
-    const genai: any = await import('google-generativeai');
+    const genai: any = await import('@google/generative-ai');
     genai.configure({ apiKey: geminiApiKey });
     const model = new genai.GenerativeModel('gemini-1.5-flash');
     const schema = { name: 'string', roll_no: 'string' };
